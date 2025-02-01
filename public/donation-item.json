@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Warm Clothes for Dhaka",
+      "image": "https://images.pexels.com/photos/5710033/pexels-photo-5710033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Join our campaign to provide warm clothes to the underprivileged in Dhaka. Help us make this winter more comfortable for those in need.",
+      "status": "Active",
+      "contactInfo": "contact@winterdonation.com",
+      "division": "Dhaka"
+    },
+    {
+      "id": 2,
+      "title": "Winter Aid for Chittagong",
+      "image": "https://images.pexels.com/photos/5464589/pexels-photo-5464589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Donate warm clothes to people in need in Chittagong. Together, we can help those who struggle through the cold season.",
+      "status": "Active",
+      "contactInfo": "help@winterdonation.com",
+      "division": "Chittagong"
+    },
+    {
+      "id": 3,
+      "title": "Coats for Rajshahi",
+      "image": "https://images.pexels.com/photos/5602996/pexels-photo-5602996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Provide coats and jackets for families in Rajshahi. Your donation will go a long way in making winter bearable for many.",
+      "status": "Inactive",
+      "contactInfo": "info@winterdonation.com",
+      "division": "Rajshahi"
+    },
+    {
+      "id": 4,
+      "title": "Blankets for Khulna",
+      "image": "https://images.pexels.com/photos/29765604/pexels-photo-29765604/free-photo-of-close-up-of-hands-knitting-with-green-sweater.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Donate blankets and warm clothes to the vulnerable people of Khulna. Your contribution is crucial in helping them stay warm during the winter months.",
+      "status": "Active",
+      "contactInfo": "support@winterdonation.com",
+      "division": "Khulna"
+    },
+    {
+      "id": 5,
+      "title": "Sweaters for Sylhet",
+      "image": "https://images.pexels.com/photos/3654776/pexels-photo-3654776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Help provide sweaters and other winter wear to those in need in Sylhet. Your generosity can bring warmth to their hearts.",
+      "status": "Active",
+      "contactInfo": "volunteers@winterdonation.com",
+      "division": "Sylhet"
+    },
+    {
+      "id": 6,
+      "title": "Winter Clothes for Barisal",
+      "image": "https://images.pexels.com/photos/5807040/pexels-photo-5807040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Barisal is facing a severe cold wave. Donate winter clothes to support people in need. Together, we can help Barisal stay warm this season.",
+      "status": "Active",
+      "contactInfo": "donate@winterdonation.com",
+      "division": "Barisal"
+    },
+    {
+      "id": 7,
+      "title": "Warm Clothing for Mymensingh",
+      "image": "https://images.pexels.com/photos/6633316/pexels-photo-6633316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Help us provide warm clothing to the people of Mymensingh, where the cold is hitting the most vulnerable communities.",
+      "status": "Active",
+      "contactInfo": "mymensingh@winterdonation.com",
+      "division": "Mymensingh"
+    },
+    {
+      "id": 8,
+      "title": "Jackets for Rangpur",
+      "image": "https://images.pexels.com/photos/5806960/pexels-photo-5806960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Join us in donating jackets for families in Rangpur who are struggling against the cold weather.",
+      "status": "Active",
+      "contactInfo": "rangpur@winterdonation.com",
+      "division": "Rangpur"
+    }
+  ]
+  
