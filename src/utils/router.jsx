@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import DonationCampaigns from "../components/DonationCampaigns/DonationCampaigns";
 import HowToHelp from "../components/HowToHelp/HowToHelp";
 import Dashboard from "../components/Dashboard/Dashboard";
+import CardDetails from "../components/DonationCard/CardDetails/CardDetails";
 
 const router = createBrowserRouter([
     {
@@ -12,7 +13,8 @@ const router = createBrowserRouter([
       children:[
         {
             path:'/',
-            element:<Home></Home>
+            element:<Home></Home>,
+            loader: () => fetch("/donation-item.json")
         },
         {
             path:'/donationcampaigns',
@@ -25,6 +27,19 @@ const router = createBrowserRouter([
         {
             path:'/dashboard',
             element:<Dashboard></Dashboard>
+        },
+        {
+          path:'/details/:id',
+          element:<CardDetails></CardDetails>,
+          loader: async ({params}) => {
+            const res = await fetch(`/donation-item.json`)
+            const data = await res.json();
+
+            const singleData = data.find(d=> d.id == params.id )
+            return singleData;
+
+          }
+          
         }
       ]
     },

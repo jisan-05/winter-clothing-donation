@@ -2,21 +2,35 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {
+    Navigation,
+    Pagination,
+    Scrollbar,
+    A11y,
+    EffectCube,
+} from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/effect-cube";
 
 const Banner = () => {
     return (
         <div>
             <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-
+                modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
+                effect={"cube"}
+                grabCursor={true}
+                cubeEffect={{
+                    shadow: true,
+                    slideShadows: true,
+                    shadowOffset: 20,
+                    shadowScale: 0.94,
+                }}
                 spaceBetween={50}
                 slidesPerView={1}
                 navigation
