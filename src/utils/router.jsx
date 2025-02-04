@@ -5,6 +5,9 @@ import DonationCampaigns from "../components/DonationCampaigns/DonationCampaigns
 import HowToHelp from "../components/HowToHelp/HowToHelp";
 import Dashboard from "../components/Dashboard/Dashboard";
 import CardDetails from "../components/DonationCard/CardDetails/CardDetails";
+import Register from "../components/Register/Register";
+import Login from "../components/Login/Login";
+import PrivetRoute from "../components/privetRoute/PrivetRoute";
 
 const router = createBrowserRouter([
     {
@@ -26,7 +29,9 @@ const router = createBrowserRouter([
         },
         {
             path:'/dashboard',
-            element:<Dashboard></Dashboard>
+            element:<PrivetRoute>
+              <Dashboard></Dashboard>
+            </PrivetRoute>
         },
         {
           path:'/details/:id',
@@ -40,6 +45,14 @@ const router = createBrowserRouter([
 
           }
           
+        },
+        {
+          path:'/register',
+          element:<Register></Register>
+        },
+        {
+          path:'/login',
+          element:<Login></Login>
         }
       ]
     },
